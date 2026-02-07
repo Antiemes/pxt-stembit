@@ -3,8 +3,7 @@
     "version": "1.0.1",
     "description": "This is makecode extension for Stem Bit by SB Components",
     "dependencies": {
-        "core": "*",
-        "StemBit_IR": "github:sbcshop/pxt-stembit-remote"
+        "core": "*"
     },
     "files": [
         "README.md",
