@@ -1,6 +1,6 @@
 {
     "name": "StemBit",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "This is makecode extension for Stem Bit by SB Components",
     "dependencies": {
         "core": "*",
