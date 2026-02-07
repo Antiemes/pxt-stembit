@@ -446,7 +446,6 @@ namespace stembit_Robot {
     const PRESCALE = 0xFE
 
     let initialized = false
-    let yahStrip: neopixel.Strip;
 
     export enum enColor {
 
@@ -835,19 +834,6 @@ namespace stembit_Robot {
         setPwm(1, 0, G);
         setPwm(2, 0, B);
 
-    }
-
-    //% blockId=stembit_RGB_Car_Program block="RGB_Car_Program"
-    //% weight=99
-    //% blockGap=10
-    //% color="#C814B8"
-    //% name.fieldEditor="gridpicker" name.fieldOptions.columns=4
-    export function RGB_Car_Program(): neopixel.Strip {
-         
-        if (!yahStrip) {
-            yahStrip = neopixel.create(DigitalPin.P16, 3, NeoPixelMode.RGB);
-        }
-        return yahStrip;  
     }
 
 
